@@ -1,0 +1,251 @@
+EESchema Schematic File Version 4
+LIBS:TLV493D-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "TLV493D"
+Date "2019-08-26"
+Rev "0.1v"
+Comp "Electronic Cats"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Andres Sabas"
+$EndDescr
+$Comp
+L Sensor_Magnetic:TLV493D U1
+U 1 1 5D647D3F
+P 3550 2090
+F 0 "U1" H 3830 2186 50  0000 L CNN
+F 1 "TLV493D" H 3830 2095 50  0000 L CNN
+F 2 "Housings_SSOP:TSOP-6_1.65x3.05mm_Pitch0.95mm" H 3500 1590 50  0001 C CNN
+F 3 "http://www.infineon.com/dgdl/Infineon-TLV493D-A1B6-DS-v01_00-EN.pdf?fileId=5546d462525dbac40152a6b85c760e80" H 3400 2590 50  0001 C CNN
+	1    3550 2090
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2490 3450 2575
+Wire Wire Line
+	3450 2575 3550 2575
+Wire Wire Line
+	3650 2575 3650 2490
+Wire Wire Line
+	3550 2490 3550 2575
+Connection ~ 3550 2575
+Wire Wire Line
+	3550 2575 3650 2575
+Wire Wire Line
+	3550 2575 3550 2630
+$Comp
+L power:GND #PWR0101
+U 1 1 5D648E36
+P 3550 2650
+F 0 "#PWR0101" H 3550 2400 50  0001 C CNN
+F 1 "GND" H 3555 2477 50  0000 C CNN
+F 2 "" H 3550 2650 50  0001 C CNN
+F 3 "" H 3550 2650 50  0001 C CNN
+	1    3550 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1590 3550 1525
+Text Label 2565 1990 0    50   ~ 0
+SCL
+Text Label 2560 2090 0    50   ~ 0
+SDA
+$Comp
+L power:VCC #PWR0102
+U 1 1 5D64965B
+P 3550 1445
+F 0 "#PWR0102" H 3550 1295 50  0001 C CNN
+F 1 "VCC" H 3567 1618 50  0000 C CNN
+F 2 "" H 3550 1445 50  0001 C CNN
+F 3 "" H 3550 1445 50  0001 C CNN
+	1    3550 1445
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5D64A214
+P 2980 1825
+F 0 "R2" H 3039 1871 50  0000 L CNN
+F 1 "1K2" H 3039 1780 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 2980 1825 50  0001 C CNN
+F 3 "~" H 2980 1825 50  0001 C CNN
+	1    2980 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5D64A83E
+P 2800 1830
+F 0 "R3" H 2859 1876 50  0000 L CNN
+F 1 "1K2" H 2859 1785 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 2800 1830 50  0001 C CNN
+F 3 "~" H 2800 1830 50  0001 C CNN
+	1    2800 1830
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5D64ABDE
+P 4250 2025
+F 0 "C1" H 4342 2071 50  0000 L CNN
+F 1 "0.1uF" H 4342 1980 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4250 2025 50  0001 C CNN
+F 3 "~" H 4250 2025 50  0001 C CNN
+	1    4250 2025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1525 4250 1525
+Wire Wire Line
+	4250 1525 4250 1925
+Connection ~ 3550 1525
+Wire Wire Line
+	3550 1525 3550 1445
+Wire Wire Line
+	4250 2125 4250 2630
+Wire Wire Line
+	4250 2630 3550 2630
+Connection ~ 3550 2630
+Wire Wire Line
+	3550 2630 3550 2650
+Wire Wire Line
+	2565 1990 2980 1990
+Wire Wire Line
+	2560 2090 2800 2090
+Wire Wire Line
+	2980 1925 2980 1990
+Connection ~ 2980 1990
+Wire Wire Line
+	2980 1990 3150 1990
+Wire Wire Line
+	2800 1930 2800 2090
+Connection ~ 2800 2090
+Wire Wire Line
+	2800 2090 3150 2090
+Wire Wire Line
+	2980 1725 2980 1645
+Wire Wire Line
+	2800 1730 2800 1645
+Wire Wire Line
+	2800 1645 2900 1645
+Wire Wire Line
+	2900 1645 2900 1600
+Connection ~ 2900 1645
+Wire Wire Line
+	2900 1645 2980 1645
+$Comp
+L power:VCC #PWR0103
+U 1 1 5D64F2AE
+P 2900 1600
+F 0 "#PWR0103" H 2900 1450 50  0001 C CNN
+F 1 "VCC" H 2917 1773 50  0000 C CNN
+F 2 "" H 2900 1600 50  0001 C CNN
+F 3 "" H 2900 1600 50  0001 C CNN
+	1    2900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5D64FB88
+P 4830 1780
+F 0 "R1" H 4889 1826 50  0000 L CNN
+F 1 "330" H 4889 1735 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4830 1780 50  0001 C CNN
+F 3 "~" H 4830 1780 50  0001 C CNN
+	1    4830 1780
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5D64FF70
+P 4830 2115
+F 0 "D1" V 4869 1998 50  0000 R CNN
+F 1 "LED" V 4778 1998 50  0000 R CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4830 2115 50  0001 C CNN
+F 3 "~" H 4830 2115 50  0001 C CNN
+	1    4830 2115
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4830 1680 4830 1585
+Wire Wire Line
+	4830 1880 4830 1965
+Wire Wire Line
+	4830 2265 4830 2380
+$Comp
+L power:VCC #PWR0104
+U 1 1 5D652485
+P 4830 1585
+F 0 "#PWR0104" H 4830 1435 50  0001 C CNN
+F 1 "VCC" H 4847 1758 50  0000 C CNN
+F 2 "" H 4830 1585 50  0001 C CNN
+F 3 "" H 4830 1585 50  0001 C CNN
+	1    4830 1585
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5D65301F
+P 4830 2380
+F 0 "#PWR0105" H 4830 2130 50  0001 C CNN
+F 1 "GND" H 4835 2207 50  0000 C CNN
+F 2 "" H 4830 2380 50  0001 C CNN
+F 3 "" H 4830 2380 50  0001 C CNN
+	1    4830 2380
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J1
+U 1 1 5D6566B2
+P 3435 3235
+F 0 "J1" V 3281 3383 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 3372 3383 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3435 3235 50  0001 C CNN
+F 3 "~" H 3435 3235 50  0001 C CNN
+	1    3435 3235
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3635 3435 3635 3560
+Wire Wire Line
+	3535 3435 3535 3560
+Wire Wire Line
+	3435 3435 3435 3555
+Wire Wire Line
+	3335 3435 3335 3560
+Text Label 3335 3560 3    50   ~ 0
+SDA
+Text Label 3435 3555 3    50   ~ 0
+SCL
+$Comp
+L power:VCC #PWR0106
+U 1 1 5D6594A8
+P 3730 3545
+F 0 "#PWR0106" H 3730 3395 50  0001 C CNN
+F 1 "VCC" H 3747 3718 50  0000 C CNN
+F 2 "" H 3730 3545 50  0001 C CNN
+F 3 "" H 3730 3545 50  0001 C CNN
+	1    3730 3545
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5D659C09
+P 3535 3560
+F 0 "#PWR0107" H 3535 3310 50  0001 C CNN
+F 1 "GND" H 3540 3387 50  0000 C CNN
+F 2 "" H 3535 3560 50  0001 C CNN
+F 3 "" H 3535 3560 50  0001 C CNN
+	1    3535 3560
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3635 3560 3730 3560
+Wire Wire Line
+	3730 3560 3730 3545
+$EndSCHEMATC
