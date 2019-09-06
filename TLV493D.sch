@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:TLV493D-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -83,7 +83,7 @@ U 1 1 5D64A83E
 P 2800 1830
 F 0 "R3" H 2859 1876 50  0000 L CNN
 F 1 "1K2" H 2859 1785 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2800 1830 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2800 1830 50  0001 C CNN
 F 3 "~" H 2800 1830 50  0001 C CNN
 	1    2800 1830
 	1    0    0    -1  
