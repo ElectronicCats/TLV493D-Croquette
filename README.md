@@ -1,4 +1,4 @@
-# TLV493D Breakout Board
+# Electronic Cats TLV493D Breakout Board
 
 Electronic Cats invests time and resources providing this open source design, please support Electronic Cats and open-source hardware by purchasing products from Electronic Cats!
 
