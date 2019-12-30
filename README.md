@@ -18,19 +18,20 @@ Key features are 3D magnetic sensing with a very low power consumption during op
 
 
 ## Usage
-Please see the example sketches in the `/examples` directory in this library to learn more about the usage of the library.
+
+Please see the example sketches in the repository [Arduino Library](https://github.com/Infineon/TLV493D-A1B6-3DMagnetic-Sensor) in this library to learn more about the usage of the sensor.
 
 
-### Usage with TLV493D
+### Usage Electronic Cats TLV493D with Arduino Library 
 
 The Electronic Cats TLV493D-A1B6 3DMagnetic is a standalone break out board. You can connect it easily to any microcontroller of your choice which is Arduino compatible and has 3.3V logic level (please note that the Arduino UNO has 5V logic level and cannot be used without level shifting).
 
 * [Link](https://github.com/Infineon/TLV493D-A1B6-3DMagnetic-Sensor/wiki) to the wiki with more information
 
-## Processing
+### Processing
 This library supports the open-source software [Processing](https://processing.org/) for creating GUIs. It allows you to connect your evaluation board to a PC over serial communication and visualisation of the embedded system. Find out more on the Arduino homepage [here](http://playground.arduino.cc/Interfacing/Processing). The respective files are stored in the /processing folder of this repository. 
 
-## Printables
+### Printables
 The TLx493D 3D magnetic sensor family has additional tools which can be directly mounted on top of the evaluation boards. The 3D print data of the [joystick](https://www.infineon.com/cms/en/product/promopages/sensors-2go/#Add-ons-3D-Magnetic-2GO), the [rotate knob](https://www.infineon.com/cms/en/product/promopages/sensors-2go/#Add-ons-3D-Magnetic-2GO) and the [linear slider](https://www.infineon.com/cms/en/product/promopages/sensors-2go/#Add-ons-3D-Magnetic-2GO) can be found in the folder `printables`.
 
 <img src="https://www.infineon.com/export/sites/default/media/products/Sensors/joystick.jpg_708092179.jpg" width=250>
