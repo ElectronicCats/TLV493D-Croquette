@@ -1,4 +1,4 @@
-# Electronic Cats TLV493D Breakout Board
+# Electronic Cats Croquette TLV493D
 
 The 3D magnetic sensor TLV493D-A1B6 offers accurate three-dimensional sensing with extremely low power consumption in a small 6-pin package. With its magnetic field detection in x, y, and z-direction the sensor reliably measures three-dimensional, linear and rotation movements. Applications include joysticks, control elements (white goods, multifunction knops), or electric meters (anti tampering) and any other application that requires accurate angular measurements or low power consumptions.
 The integrated temperature sensor can furthermore be used for plausibility checks.
