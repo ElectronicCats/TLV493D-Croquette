@@ -46,6 +46,7 @@ The datasheet for the TLV493D-A1B6 can be found here [TLV493D-A1B6 Datasheet](ht
 
 
 ## License
+![OpenSourceLicense](https://github.com/ElectronicCats/AjoloteBoard/raw/master/OpenSourceLicense.png)
 
 Electronic Cats invests time and resources providing this open source design, please support Electronic Cats and open-source hardware by purchasing products from Electronic Cats!
 
